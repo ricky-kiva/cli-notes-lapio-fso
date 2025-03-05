@@ -15,6 +15,7 @@
 - `head`: Examine file from top with `-n` parameter to specify the number of lines
 - `grep`: Returns filtered specific lines from some search criteria
 - `|`: The Pipe. Pass the output of a command, to another command
+- `wget`: World wide web get (download from internet)
 - `--help`: Display command's details
 
 ##### Paths
