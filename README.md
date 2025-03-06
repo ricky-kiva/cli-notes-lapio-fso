@@ -18,6 +18,7 @@
 - `chmod`: Change Mode (change permissions)
 - `pwd`: Print Working Directory
 - `echo`: Print text in command line
+- `sudo`: Run command as a Superuser
 - `--help`: Display command's details
 
 ##### Operators
@@ -54,3 +55,18 @@
 ##### Scripts
 - Bash: Programming language to write scripts (extension: `.sh`)
 - Shebang: `#!/bin/bash` (Line to start a Bash script)
+
+##### Installing CLI Programs
+- `apt`: Apt. Package Manager for Linux
+- `brew`: Homebrew. Package Manager for MacOs
+- `install`: Install package using `apt` or `homebrew`
+- `update`: Fetch latest information regarding installed packages
+- `upgrade`: Install the new version of the installed packages
+-  `remove`: Remove installed packages
+
+###### Installing CLI Programs Without Package Manager
+- Define Environment Variables on `PATH`
+
+###### Defining Configuration for CLI
+- `~/.bashrc`: for Linux & Windows
+- `~/.bash_profile`: for MavOS
