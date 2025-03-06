@@ -16,6 +16,8 @@
 - `grep`: Returns filtered specific lines from some search criteria
 - `wget`: World wide web Get (download from internet)
 - `chmod`: Change Mode (change permissions)
+- `pwd`: Print Working Directory
+- `echo`: Print text in command line
 - `--help`: Display command's details
 
 ##### Operators
@@ -48,3 +50,7 @@
 - `chmod u+x example.txt`: Gives owner of the file execute permission
 - `chmod o-w example.txt`: Removes other users the write permission
 - `chmod go+r example.txt`: Gives group of the file & other users the read permission
+
+##### Scripts
+- Bash: Programming language to write scripts (extension: `.sh`)
+- Shebang: `#!/bin/bash` (Line to start a Bash script)
