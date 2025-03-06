@@ -19,6 +19,12 @@
 - `pwd`: Print Working Directory
 - `echo`: Print text in command line
 - `sudo`: Run command as a Superuser
+- `watch`: Repeat command in certain intervals
+- `alias`: Define an alias for a command
+- `unalias`: Remove defined alias
+- `jobs`: List running background jobs
+- `fg %n`: Moves background job #n to foreground
+- `history`: View command history
 - `--help`: Display command's details
 
 ##### Operators
@@ -26,6 +32,9 @@
 - `>`: Writes output of a command to a file
 - `<`: Give contents of a file to a command
 - `>>`: Writes output of a command to the new line of a file (keeping the old contents)
+- `;`: Chain commands
+- `&&`: Chain command only when the first command succeed
+- `&`: Ending command with this will move the process to background
 
 ##### Paths
 - `~`: Home directory
