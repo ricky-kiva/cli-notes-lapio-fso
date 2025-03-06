@@ -14,7 +14,8 @@
 - `tail`: Examine file from bottom with `-n` parameter to specify the number of lines
 - `head`: Examine file from top with `-n` parameter to specify the number of lines
 - `grep`: Returns filtered specific lines from some search criteria
-- `wget`: World wide web get (download from internet)
+- `wget`: World wide web Get (download from internet)
+- `chmod`: Change Mode (change permissions)
 - `--help`: Display command's details
 
 ##### Operators
@@ -33,3 +34,17 @@
 
 ##### Permissions
 <img src="../main/stock/permission-structure.png" alt="File Permission Structure in Command Line">
+
+- `r`: Read permission
+- `w`: Write permission
+- `x`: Execute permission
+- `u`: Owner of the file
+- `g`: Users belonging to the group of the file
+- `o`: All other users
+- `+`: Gives a permission
+- `-`: Removes a permission
+
+###### Permission Examples
+- `chmod u+x example.txt`: Gives owner of the file execute permission
+- `chmod o-w example.txt`: Removes other users the write permission
+- `chmod go+r example.txt`: Gives group of the file & other users the read permission
