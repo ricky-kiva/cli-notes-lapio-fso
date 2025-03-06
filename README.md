@@ -30,3 +30,6 @@
 
 ##### Wildcards
 - `*`: Example, `*.txt` will select all text files inside the directory
+
+##### Permissions
+<img src="../main/Stock/permission-structure.png" alt="File Permission Structure in Command Line">
